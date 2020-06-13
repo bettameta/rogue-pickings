@@ -1,0 +1,200 @@
+/**********  BASE STYLES  **********/
+
+    body{
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        background: #ffffff;
+        height: 870px;
+        margin: 0;
+    }
+
+/**********  GRID  **********/
+
+    .full-width {
+        width: 1200px;
+        margin: 0 auto;
+        overflow: auto;
+    }
+
+    .half-width{
+        width: 600px;
+        float: left;
+        height: 111px;
+    }
+
+    .third-width{
+        width: 398px;
+        float: left;
+        height: 210px;
+        padding-top: 0;
+        overflow: auto;
+        border-top: 1px solid #dedbdc; 
+        border-left: 1px solid #dedbdc;
+        border-bottom: 1px solid #dedbdc;
+    }
+    .third-width-fix{
+        width: 398px;
+        float: left;
+        height: 210px;
+        padding-top: 0;
+        border-top: 1px solid #dedbdc; 
+        border-bottom: 1px solid #dedbdc;
+    }
+
+/**********  HEADER  **********/
+    .header {
+        height: 111px;
+    }
+
+    /**  H2 **/
+
+    header h2 {
+        font-family: 'Montserrat', sans-serif;
+        width: 280px;
+        font-size: 30px; 
+        line-height: 23px;
+        color: #000000;
+        padding-left: 7px;
+        padding-top: 25px;
+    }
+
+    header h2 span{
+        font-family: 'Montserrat', sans-serif;
+        color: #77a466;
+    }
+
+    /**  HEADER NAV  **/
+    
+    nav{
+        float: right;
+        padding: 10px 0; 
+        margin-top: 18px;  
+    }
+
+    nav ul li{
+        display: inline-block;
+        font-size: 14px; 
+        line-height: 23px;
+        padding-right: 15px;  
+    }
+
+    nav ul li a{
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        color: #77a466;
+        padding-right: 0px;
+        padding-left: 0px;   
+    }
+
+/**********  SECTION A  **********/
+
+    .section-a #full-width {
+        height: 470px;
+    }
+
+    #section-a img#hero-img {
+        border-top: 3px solid #77a466;
+        border-bottom: 3px solid #77a466;
+        height: 288px;
+        width: 1200px;
+    }
+    /**  SECTION A 1 WELCOME  **/
+    #section-a{
+        padding: 0 5px;
+    }
+
+    #section-a h4 {
+        font-family: 'Montserrat', bold;
+        font-size: 18px;
+        color: #77a466;
+        text-transform: uppercase;
+        padding-top: 15px;
+        border-bottom: 90px;
+        
+    }
+    /**  SECTION A PARAGRAPH  **/
+
+    .roaming-truck {
+        font-size: 16px;
+        line-height: 25px;
+        font-family: 'Montserrat', bold;
+        color: #000000;
+        padding-right: 20px;
+    }
+
+/**********  SECTION B  **********/
+
+    #section-b #full-width{
+        width: 1200px;
+        height: 210px;
+        border-top: 1px solid #dedbdc;
+        padding: 0 20px 0 20px;
+        margin: 0;
+    }
+
+
+    /** H6 **/
+
+    .fix{
+        padding: 0px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .normal{
+        padding: 0 0 0 30px;
+        color: #000000;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        
+
+    }
+    
+    /**  FLAMING   **/ 
+    
+    .flaming{
+        font-size: 16px;
+        line-height: 30px;
+        color: #77a466;
+        text-decoration: none;  
+    }  
+
+    /**  EXCITED  **/
+
+    .excited{
+        font-size: 16px;
+        line-height: 21px;
+        padding: 0 25px 0px 30px;
+
+    }
+
+   /**  CONTACT  **/
+
+    .contact{
+        font-size: 16px;
+        line-height: 25px;
+        padding-left: 30px;
+        padding-top: 0;
+        padding-bottom: 50px;
+        border: 0;  
+    }
+
+/****  FOOTER  ****/
+
+footer{
+    height: 79px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: center;
+    padding-top: 0;
+}
+
+/****  FOOTER SPAN  ****/
+  
+footer h5 span{
+    font-family: 'Galada';
+    color: #77a466;   
+    padding: 0 20px 0 20px;
+}
